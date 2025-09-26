@@ -17,17 +17,25 @@ Method:
 Value-weight（市值加权）
 Equal-weight（等权重）
 扫描范围：N = 1 -100
+
+
+
 Back Test Result:
 1. Value-weight 策略
 最优 N = 7, CAGR = 18.7%, 总回报率 ≈ 1900%显著优于基准 QQQ（CAGR 14.9%，总回
 报 ≈ 1033%）
 (From logs) N= 7 STRAT_TR=1908.19% STRAT_CAGR=18.71% QQQ_TR=1033.37% 
 QQQ_CAGR=14.90% [2007-12-31 ~ 2025-06-27]
-2. Equal-weight 策略
+
+
+3. Equal-weight 策略
 最优 N = 8, CAGR = 19.6%, 总回报率 ≈ 2200%, 进一步超过基准 QQQ 与 value-weight 策
 略
 (From logs) N= 8 STRAT_TR=2194.95% STRAT_CAGR=19.62% QQQ_TR=1033.37% 
 QQQ_CAGR=14.90% [2007-12-31 ~ 2025-06-27]
+
+
+
 Conclusion:
 NDX 整体表现很好，但并非最优选择：从 2007 年以来，直接持有 NDX 的 CAGR 约
 14.9%，而通过 Top-N 策略可以显著提高到 ~19%。
